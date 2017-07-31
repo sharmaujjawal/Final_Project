@@ -1,0 +1,48 @@
+
+      <meta charset="utf-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <!--Bootstrap-->
+      <link href="css/bootstrap.css" rel="stylesheet">
+      <style>
+body {
+        background-image: url("http://www.nmgncp.com/data/out/177/5126872-hd-wallpapers-5k.jpg");
+}
+
+</style>
+   </head>
+   <body >
+   <td colspan=2><center><font size=4><b>
+        <div class="background-image"></div>
+        <div class="content">
+
+        </div>
+      <div>
+         <h1>INSTAGRAM CLONE</h1>
+         <h3>LOGIN</h3>
+
+         <form method="post">
+         {% csrf_token %}
+       <div>
+           <label for="username">Username: </label>
+           <input id="username" name="username" value="" type="text">
+       </div><br>
+
+       <div>
+           <label for="password">Password: </label>
+           <input id="password" name="password" value="" type="password">
+       </div><br>
+           <input value="LOGIN"style="background-color:#07c ;height:35px; width:100px" type="submit">
+    </form>
+
+      </div>
+
+      <!--Javascript files-->
+      <!--Jquery library-->
+      <script src="js/jquery-3.2.1.js"></script>
+      <!--Bootstrap js Library-->
+      <script src="js/bootstrap.js"></script>
+   </body>
+</html>
+
